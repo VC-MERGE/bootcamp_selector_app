@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BootCamp Selector App</string>
+    <string name="title_home">Home</string>
+    <string name="title_bootcamps">Schools</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_search">Search</string>
+    <string name="title_info">Info</string>
+    <string name="welcome_text">Welcome to Bootcamp Selector App!</string>
+</resources>
