@@ -6,4 +6,8 @@
     <string name="title_search">Search</string>
     <string name="title_info">Info</string>
     <string name="welcome_text">Welcome to Bootcamp Selector App!</string>
+    <string name="title_activity_questionnaire">Questionnaire</string>
+    <string name="action_settings">Settings</string>
+    <string name="skipQ">SKIP</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>

@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -26,7 +27,7 @@ public class BootcampSelector extends AppCompatActivity {
                 case R.id.navigation_info:
                     mTextMessage.setText(R.string.title_info);
                     return true;
-                 case R.id.navigation_bootcamps:
+                case R.id.navigation_bootcamps:
                     mTextMessage.setText(R.string.title_bootcamps);
                     return true;
                 case R.id.navigation_profile:
@@ -42,9 +43,15 @@ public class BootcampSelector extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bootcamp_selector);
 
+        Toolbar myToolbar = findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+
+
         mTextMessage =  findViewById(R.id.welcome);
         BottomNavigationView navigation = findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+
+
     }
 
 }
