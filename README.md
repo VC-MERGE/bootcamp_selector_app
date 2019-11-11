@@ -4,4 +4,4 @@ This CodeSelector is a free software app created for the purpose of helping aspi
 
 Check out our landing page...
 
-![Image of CodeSelector App on Android Phone] (https://www.dropbox.com/s/bm62a7ugsp0dfzh/CodeSelector_Phone_Screen.png?dl=0)
+![Image of CodeSelector App on Android Phone](https://www.dropbox.com/s/bm62a7ugsp0dfzh/CodeSelector_Phone_Screen.png?dl=0)
