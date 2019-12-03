@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BootCamp Selector App</string>
+    <string name="app_name">CodeSelector</string>
     <string name="title_home">Home</string>
     <string name="title_bootcamps">Schools</string>
     <string name="title_profile">Profile</string>
